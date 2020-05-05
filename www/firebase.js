@@ -79,17 +79,17 @@ exports.setAnalyticsCollectionEnabled = function (enabled, success, error) {
 //
 // Crashlytics
 //
-exports.logError = function (message, success, error) {
-  exec(success, error, PLUGIN_NAME, "logError", [message]);
-};
+// exports.logError = function (message, success, error) {
+//   exec(success, error, PLUGIN_NAME, "logError", [message]);
+// };
 
-exports.forceCrashlytics = function (message, success, error) {
-  exec(success, error, PLUGIN_NAME, "forceCrashlytics", [message]);
-};
+// exports.forceCrashlytics = function (message, success, error) {
+//   exec(success, error, PLUGIN_NAME, "forceCrashlytics", [message]);
+// };
 
-exports.setCrashlyticsUserId = function (userId, success, error) {
-  exec(success, error, PLUGIN_NAME, "setCrashlyticsUserId", [userId]);
-};
+// exports.setCrashlyticsUserId = function (userId, success, error) {
+//   exec(success, error, PLUGIN_NAME, "setCrashlyticsUserId", [userId]);
+// };
 
 //
 // Performance
